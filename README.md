@@ -1,9 +1,8 @@
 # wp_add_inline_style-on-post
 
 `
+
 function my_styles_method() {
-
-
     if(is_singular()):
         $post_id = get_the_id();
 
@@ -22,4 +21,6 @@ function my_styles_method() {
     endif;
 
 }
-add_action( 'wp_enqueue_scripts', 'my_styles_method' );`
+add_action( 'wp_enqueue_scripts', 'my_styles_method' );
+
+`

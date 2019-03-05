@@ -1,6 +1,6 @@
 # wp_add_inline_style-on-post
 
-`
+```php
 
 function my_styles_method() {
     if(is_singular()):
@@ -23,4 +23,6 @@ function my_styles_method() {
 }
 add_action( 'wp_enqueue_scripts', 'my_styles_method' );
 
-`
+
+```
+
